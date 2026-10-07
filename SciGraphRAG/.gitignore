@@ -1,0 +1,48 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java / Python build and caches
+target/
+build/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage/
+
+# Tooling / local state
+.idea/
+.vscode/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.architecture_read/
+
+# Runtime data and large artifacts
+/volumes/
+/data/
+/uploads/
+/artifacts/
+/models/
+/infra/**/volumes/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+/research/datasets/raw/
+/research/results/*
+!/research/results/.gitkeep
+!/research/results/README.md

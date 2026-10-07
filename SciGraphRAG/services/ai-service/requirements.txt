@@ -1,0 +1,7 @@
+aio-pika==9.6.2
+fastapi==0.142.2
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-dotenv==1.2.4
+uvicorn[standard]==0.54.0
+
